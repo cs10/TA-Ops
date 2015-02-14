@@ -19,9 +19,7 @@ Because of that dual nature of this document (internal and external), it may see
 ## The Meat
 
 * Collaboration
-* Using Git
-    * Github
-    * Web hooks
+* Github
 * HipChat
     * Hubot
 * Asana
@@ -37,14 +35,10 @@ The core work that we're trying to do, is make collaboration easier across the s
 
 #### Using Git
 <a name="git"></a>
-Version control is essential for code! We try to practice that as much as possible, mostly because we like to think of ourselves as decent humans (and computer scientists).
-
-There are 2 big reasons for using version control, the first is obvious.
-1. Easy versioning does make a big difference for a class! It's very helpful to mark items as happening for a specific semester or to know what things change from one semester to the next. A real VCS is more helpful than something like google docs in that regard.
-2. VCS's like plain text and easy to update formats! Many of our resources get shared beyond the CS10 class. Using plain text (or Markdown or something) is generally much easier to automate and convert than say, a Google Doc.
+We have a large group of TA's and we want everyone to have access to the web site, so this means we need something like git. Github is a great interface, is free, and pretty easy to use!
 
 ##### Github
-Of course, central to the VCS stuff is Github! First, Github for Education [INSERT LINK] is awesome and will give you free private repositories if you need to keep things locked down. However, mostly Github provides a safe way to collaborate on code that we write and a great place to share it with others.
+First, [Github for Education](education.github.com) is awesome and will give you free private repositories if you need to keep things locked down. However, mostly Github provides a safe way to collaborate on code that we write and a great place to share it with others.
 
 Here's the features we use:
 
@@ -57,13 +51,23 @@ Here's the features we use:
 
 ##### Web Hooks
 <a name="hooks"></a>
+Github supports web hooks, that allow a server to be pinged whenever a certain repo event happens. This is handy if you want to host a website on something that isn't Github pages. We've used web hooks to have the Berkeley servers trigger a `git pull` from our web site repos. This is a pretty simple process and you can see the code [here](github.com/cs10/webhooks)
 
 ##### Barcode Scanner
-* iClicker Check-Out
-    * Cal Student IDs:
-        * Code 39 Termination Char: Tab
-* Lab Check-offs
-    * Barcodes -- Code 39 Termination Char: None
-    * We use hipchat
-    
-    
+This is mostly a small thing, but many many devices have Barcodes on them! We use a barcode scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration. 
+
+#### HipChat
+We use a HipChat room for realtime chat. This has turned out to be a lot easier than email, and often more fun. (Do not underestimate the power of gifs!) Yes, you can use Slack too, if you'd rather. However, Hipchat has unlimited integrations which is handy.
+
+#### The Chatbot
+Based of Github's idea of "Chat-Ops" we have our own instance of [Hubot](github.com/github/hubot), called [Alonzo](github.com/cs10/Alonzo). Alonzo is deployed on Heroku for free, and is a user in the chat room. He's a simple nodeJS app which integrates with bCourses and provides some custom commands for helping TA's do less work.
+
+* Lab Check Offs
+	* During lab we can check students off with our phones very quickly. This is quicker than directly using the Canvas / bCourses app.
+	* We allow lab assistants to check off students, but definitely not access to the course gradebook! Whenever a lab assistant enters a check off score in HipChat it is saved for a TA to review before being placed in the grade book. 
+* Custom Commands
+	* We have a few custom commands for easy to forget info. This makes it easy for anyone to quickly help themselves.
+* bCourses (Canvas) Tooling:
+	* because we already integrated with bCourses, it's easy to add additional tooling to automate student processes or grading info. We have "slip days" which students can use throughout the semester. However, students tended to lose track of them, so now we have a web page which handles this. Because Alonzo is really just a web server, we can use any custom logic to build a new place for students to check their  slip days. In this case, the bot is an API for our class website so that students don't need to go anywhere else.
+		* [Bot code](https://github.com/cs10/Alonzo/blob/master/scripts/cs10-slipdays.js)
+		* [Website code](https://github.com/cs10/sp15/blob/gh-pages/slipdays.html)
