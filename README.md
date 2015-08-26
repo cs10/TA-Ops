@@ -28,7 +28,6 @@ Because of that dual nature of this document (internal and external), it may see
 * Projects Guide
 
 #### Collaboration
-<a name="collaboration"></a>
 
 The core work that we're trying to do, is make collaboration easier across the staff. The bulk of our communication still happens over an email list-serve for course staff. (We currently have a few different lists for each role.) However, as we use tools like Docs and HipChat much more of the communication is moving away from email. There's no one good strategy for communication. Despite the fact that "hating email" is popular and cool, it's damn easy to get everyone on board.
 
