@@ -1,5 +1,4 @@
-TA-Ops
-======
+# TA-Ops
 
 attempting to keep everyone's head on straight!
 
@@ -34,7 +33,6 @@ Because of that dual nature of this document (internal and external), it may see
 The core work that we're trying to do, is make collaboration easier across the staff. The bulk of our communication still happens over an email list-serve for course staff. (We currently have a few different lists for each role.) However, as we use tools like Docs and HipChat much more of the communication is moving away from email. There's no one good strategy for communication. Despite the fact that "hating email" is popular and cool, it's damn easy to get everyone on board.
 
 #### Using Git
-<a name="git"></a>
 We have a large group of TA's and we want everyone to have access to the web site, so this means we need something like git. Github is a great interface, is free, and pretty easy to use!
 
 ##### Github
@@ -50,14 +48,13 @@ Here's the features we use:
     It's lightweight, and simple. Assign staff members tasks and use them to collaborate on anything. Unlike discussion over email, issues can be directly attached to and reference items in a repo which makes things a bit easier to follow.
 
 ##### Web Hooks
-<a name="hooks"></a>
 Github supports web hooks, that allow a server to be pinged whenever a certain repo event happens. This is handy if you want to host a website on something that isn't Github pages. We've used web hooks to have the Berkeley servers trigger a `git pull` from our web site repos. This is a pretty simple process and you can see the code [here](github.com/cs10/webhooks)
 
-##### Barcode Scanner
-This is mostly a small thing, but many many devices have Barcodes on them! We use a barcode scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration. 
+##### Bar code Scanner
+This is mostly a small thing, but many many devices have bar codes on them! We use a bar code scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration. 
 
 #### HipChat
-We use a HipChat room for realtime chat. This has turned out to be a lot easier than email, and often more fun. (Do not underestimate the power of gifs!) Yes, you can use Slack too, if you'd rather. However, Hipchat has unlimited integrations which is handy.
+We use a HipChat room for real-time chat. This has turned out to be a lot easier than email, and often more fun. (Do not underestimate the power of gifs!) Yes, you can use Slack too, if you'd rather. However, Hipchat has unlimited integrations which is handy.
 
 #### The Chatbot
 Based of Github's idea of "Chat-Ops" we have our own instance of [Hubot](github.com/github/hubot), called [Alonzo](github.com/cs10/Alonzo). Alonzo is deployed on Heroku for free, and is a user in the chat room. He's a simple nodeJS app which integrates with bCourses and provides some custom commands for helping TA's do less work.
