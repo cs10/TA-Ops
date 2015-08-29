@@ -33,4 +33,7 @@ Github Pages...
 ## Getting Jekyll
 
 1. See the (very basic) README in the folder of recent websites for some info.
-2. If you have Ruby installed, you should be able to do `bundle install`
+2. If you have Ruby installed, you should be able to do `gem install bundler`
+	2.1 If you want to, you can install `rvm` from [rvm.io](http://rvm.io)
+	2.2 Then install a new Ruby
+3. Once bundler is installed run `bundle install`
