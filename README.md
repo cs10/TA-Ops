@@ -5,7 +5,7 @@ __TA-Ops__ is a set of docs, procedures, and tools for helping us effectively ru
 
 Think DevOps, but for teaching.
 
-This repo is setup as a "[GitBook]" which means you can [read it online][online]. 
+This repo is setup as a "[GitBook]" which means you can [read it online][online].
 
 [CS10]: http://cs10.org
 [BJC]: http://bjc.berkeley.edu

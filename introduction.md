@@ -42,7 +42,7 @@ Here's the features we use:
 Github supports web hooks, that allow a server to be pinged whenever a certain repo event happens. This is handy if you want to host a website on something that isn't Github pages. We've used web hooks to have the Berkeley servers trigger a `git pull` from our web site repos. This is a pretty simple process and you can see the code [here](github.com/cs10/webhooks)
 
 ##### Bar code Scanner
-This is mostly a small thing, but many many devices have bar codes on them! We use a bar code scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration. 
+This is mostly a small thing, but many many devices have bar codes on them! We use a bar code scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration.
 
 #### HipChat
 We use a HipChat room for real-time chat. This has turned out to be a lot easier than email, and often more fun. (Do not underestimate the power of gifs!) Yes, you can use Slack too, if you'd rather. However, Hipchat has unlimited integrations which is handy.
@@ -52,7 +52,7 @@ Based of Github's idea of "Chat-Ops" we have our own instance of [Hubot](github.
 
 * Lab Check Offs
 	* During lab we can check students off with our phones very quickly. This is quicker than directly using the Canvas / bCourses app.
-	* We allow lab assistants to check off students, but definitely not access to the course gradebook! Whenever a lab assistant enters a check off score in HipChat it is saved for a TA to review before being placed in the grade book. 
+	* We allow lab assistants to check off students, but definitely not access to the course gradebook! Whenever a lab assistant enters a check off score in HipChat it is saved for a TA to review before being placed in the grade book.
 * Custom Commands
 	* We have a few custom commands for easy to forget info. This makes it easy for anyone to quickly help themselves.
 * bCourses (Canvas) Tooling:
