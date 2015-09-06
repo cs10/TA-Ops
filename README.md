@@ -9,5 +9,5 @@ This repo is setup as a "[GitBook]" which means you can [read it online][online]
 
 [CS10]: http://cs10.org
 [BJC]: http://bjc.berkeley.edu
-[GitBook]: http://gitbook.io/
+[GitBook]: http://gitbook.com/
 [online]: https://www.gitbook.com/read/book/cycomachead/ta-ops
