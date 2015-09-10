@@ -1,13 +1,30 @@
-## Background
+# Background
+It's tricky to run a large university class. It's tricky to do it well, and to do so with lessening resources. This is a guide for how CS10 works at UC Berkeley.
 
-Managing a large class and many projects related to the class can be complex...
-We've complied some best practices and techniques.
+This guide is both for course staff, but also should serve a resource for anyone else in academia to use, and maybe even improve upon. Because this is a public guide, there may be sections which are intentionally missing, or parts that are a bit unclear. If you'd like to know, please get in touch!
 
-Most of the stuff here will focus on tools and what we do, or at least try to do. We're not claiming to be perfect by any means, but hopefully this will be helpful to some others! The repo will hopefully also serve as some documentation for our ourselves so that we can build some institution knowledge. :)
+# What are [CS10] and [BJC]?
+[CS10], is UC Berkeley's offering of [BJC], an entry level programming course, designed for non-majors.
 
-Because of that dual nature of this document (internal and external), it may seem a little disjointed at times, or a few paragraphs might be irrelevant to you (whomever you are!), but please read along and let us know if it can be improved!
+_The Beauty and Joy of Computing_ is a curriculum that's designed both for high school students, and for college-level "CS0" courses. The course is built around a blocks-based programming language called [Snap<em>!</em>][snap], which inherits much of the design from MIT's [Scratch]. BJC focuses on some of the "big ideas" of computer science:
 
-## The Meat
+* Abstraction
+* Recursion
+* Lambdas (Higher Order Functions)
+
+[CS10]: http://cs10.org/
+[BJC]: http://bjc.berkeley.edu/
+[Scratch]:
+[BJC-Twitter]:
+[BJC-FB]:
+
+# So, is it _really_ that hard to run a class?
+
+
+**Warning**: Stuff below this line needs to be moved...
+
+---
+
 
 * Collaboration
 * Github
