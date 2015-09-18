@@ -1,7 +1,5 @@
 # Summary
 
-* [README](README.md)
-* [Introduction](introduction.md)
 * [The Course](course/overview.md)
 	* [General CS10 Policies](course/policies.md)
 	* [Lab Sections](course/labs.md)
