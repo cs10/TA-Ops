@@ -58,7 +58,7 @@ Here's the features we use:
 ##### Web Hooks
 Github supports web hooks, that allow a server to be pinged whenever a certain repo event happens. This is handy if you want to host a website on something that isn't Github pages. We've used web hooks to have the Berkeley servers trigger a `git pull` from our web site repos. This is a pretty simple process and you can see the code [here](github.com/cs10/webhooks)
 
-##### Bar code Scanner
+##### Barcode Scanner
 This is mostly a small thing, but many many devices have bar codes on them! We use a bar code scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration.
 
 #### HipChat

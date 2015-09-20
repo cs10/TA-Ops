@@ -5,7 +5,11 @@
     "structure": {
       "readme": "introduction.md"
     },
-    "plugins": [ "github", "-sharing" ],
+    "plugins": [
+      "github",
+      "-sharing",
+      "anchors-wrapper"
+    ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/cs10/TA-Ops"
