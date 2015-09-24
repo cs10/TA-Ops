@@ -1,6 +1,10 @@
 # Alonzo the Chatbot
 
-Based of Github's idea of "Chat-Ops" we have our own instance of [Hubot](github.com/github/hubot), called [Alonzo](github.com/cs10/Alonzo). Alonzo is deployed on Heroku for free, and is a user in the chat room. He's a simple nodeJS app which integrates with bCourses and provides some custom commands for helping TA's do less work.
+Based of Github's idea of "Chat-Ops" we a bot named [Alonzo](github.com/cs10/Alonzo). 
+
+Alonzo is deployed on Heroku for free, and is a user each of our chatrooms. He's a simple nodeJS app, based on Github's [Hubot](github.com/github/hubot) framework. We've extended Hubot with integrations for bCourses, and Piazza and provides some custom commands for helping TA's do less work.
+
+The goal of the chatbot is to find tasks which are tedious or error-prone, but relatively consistent that can be automated. Examples of this are doing lab checkoffs [link to process coming soon], or setting quiz passwords.
 
 * Lab Check Offs
 	* During lab we can check students off with our phones very quickly. This is quicker than directly using the Canvas / bCourses app.
