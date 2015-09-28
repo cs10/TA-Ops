@@ -1,6 +1,6 @@
 # Alonzo the Chatbot
 
-Based of Github's idea of "Chat-Ops" we a bot named [Alonzo](github.com/cs10/Alonzo). 
+Based of Github's idea of "Chat-Ops" we a bot named [Alonzo](github.com/cs10/Alonzo).
 
 Alonzo is deployed on Heroku for free, and is a user each of our chatrooms. He's a simple nodeJS app, based on Github's [Hubot](github.com/github/hubot) framework. We've extended Hubot with integrations for bCourses, and Piazza and provides some custom commands for helping TA's do less work.
 

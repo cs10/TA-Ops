@@ -2,7 +2,7 @@
 > attempting to keep everyone's head on straight!
 
 
-__TA-Ops__ is a set of docs, procedures, and tools for helping us effectively run [CS10] and [BJC] at UC Berkeley.
+__TA-Ops__ is a set of docs, procedures, and tools for helping us effectively run [CS10][] and [BJC][] at UC Berkeley.
 
 Think DevOps, but for teaching and managing a course.
 

@@ -51,7 +51,7 @@ Here's the features we use:
 * Organizations:
     This is in a "CS10" organization. We use it as a central place where all staff members can find the projects they need and automatically have access to them. As staff come and go, the members list can be updated, but all the projects we use will have a consistent home.
 * Github Pages
-    GH-Pages are a very simple way to host static websites. We try to build gh-psges compatible versions of the websites we have which are a very useful backup in the event of a school server outage.
+    GH-Pages are a very simple way to host static websites. We try to build `gh-pages` compatible versions of the websites we have which are a very useful backup in the event of a school server outage.
 * Issue Tracking
     It's lightweight, and simple. Assign staff members tasks and use them to collaborate on anything. Unlike discussion over email, issues can be directly attached to and reference items in a repo which makes things a bit easier to follow.
 
@@ -60,19 +60,3 @@ Github supports web hooks, that allow a server to be pinged whenever a certain r
 
 ##### Barcode Scanner
 This is mostly a small thing, but many many devices have bar codes on them! We use a bar code scanner to scan iClicker IDs and student ID cards when we check-in / check-out iClickers. [They're cheap](http://amzn.com/B00406YZGK?tag=calphoto-20) and don't need any configuration.
-
-#### HipChat
-We use a HipChat room for real-time chat. This has turned out to be a lot easier than email, and often more fun. (Do not underestimate the power of gifs!) Yes, you can use Slack too, if you'd rather. However, Hipchat has unlimited integrations which is handy.
-
-#### The Chatbot
-Based of Github's idea of "Chat-Ops" we have our own instance of [Hubot](github.com/github/hubot), called [Alonzo](github.com/cs10/Alonzo). Alonzo is deployed on Heroku for free, and is a user in the chat room. He's a simple nodeJS app which integrates with bCourses and provides some custom commands for helping TA's do less work.
-
-* Lab Check Offs
-	* During lab we can check students off with our phones very quickly. This is quicker than directly using the Canvas / bCourses app.
-	* We allow lab assistants to check off students, but definitely not access to the course gradebook! Whenever a lab assistant enters a check off score in HipChat it is saved for a TA to review before being placed in the grade book.
-* Custom Commands
-	* We have a few custom commands for easy to forget info. This makes it easy for anyone to quickly help themselves.
-* bCourses (Canvas) Tooling:
-	* because we already integrated with bCourses, it's easy to add additional tooling to automate student processes or grading info. We have "slip days" which students can use throughout the semester. However, students tended to lose track of them, so now we have a web page which handles this. Because Alonzo is really just a web server, we can use any custom logic to build a new place for students to check their  slip days. In this case, the bot is an API for our class website so that students don't need to go anywhere else.
-		* [Bot code](https://github.com/cs10/Alonzo/blob/master/scripts/cs10-slipdays.js)
-		* [Website code](https://github.com/cs10/sp15/blob/gh-pages/slipdays.html)

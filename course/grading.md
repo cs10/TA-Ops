@@ -1,11 +1,27 @@
-# Calculating Grades
+# Grades and How To Make Them Suck Less
 
 __Note__: This is a public doc and doesn't include any info about secret sauce nor any special policies for CS10's grade calculations.
 
 ## A Word About Grading
 > Or, "Why You Should Stop Reading Now"
 
-## High-Level Notes
+If you can afford to not grade something: **DON'T**. Instead give personal feedback. That's basically how we feel. However, grades are a necessary part of the course, so the goal is to make them as useful and friendly as possible.
+
+### Goals
+Before we begin, know that it's possible to design a grading scheme which emphasizes any aspects you wish. Instructors have freedom in the scales they choose, the curves that are applied and the tasks that are evaluated. When you create a grading system, you get to choose what a "90" or "√+" or whatever measures you use will mean. However, you also have to consider that grades don't exist in a vacuum. _If a grade ends up on a transcript, you must consider how those grades will be interpreted by others (students, parents, faculty, etc)._
+
+The goal is to create a system that students will not have to worry about interpreting -- that they will have the context for their grade to provide a feedback about their performance and track record in the course. Grades _must_ also come with some qualitative feedback. (Do check out the [Gradescope section][gs] for thoughts on rubric design.)
+
+[gs]: ../tools/gradescope.md
+
+## Creating a System
+TODO
+
+- giving credit for hard work (labs)
+- Balancing stress vs motivation and de-motivation
+- find some research to back this all  up?
+
+## Computing Grades: High-Level Notes
 
 Most of the grading is done through modifying spreadsheets and combining data using traditional Excel formula fields. There are no standard grader scripts like there are in some courses because the processes is ever so slightly different each semester.
 
@@ -26,6 +42,7 @@ The basic process goes like this:
 	* Handle Extra Credit, and person-specific adjustments last.
 		They're the most time consuming because the tweaking can never end. :-) Do make sure to spend time here as this is why humans are involved in the process.
 
+## Move this stuff to tools!
 ## Useful Spreadsheet Features
 I'm going to assume that the reader has some knowledge of spreadsheet tools for these notes, as there are better guides online. However, this section should outline some of the basic tools I've come to rely on.
 
