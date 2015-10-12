@@ -1,0 +1,6 @@
+.DS_Store
+*~
+
+# Gitbook Locations
+node_modules
+_book
