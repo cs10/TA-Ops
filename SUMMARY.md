@@ -1,10 +1,10 @@
 # Summary
 
-* [The Course](course/overview.md)
+* [Course Structure](course/overview.md)
 	* [Lecture](course/lecture.md)
 	* [Lab Sections](course/labs.md)
 	* [Discussion Sections](course/discussion.md)
-	* [Projects](course/assignments.md)
+	* [Assignments](course/assignments.md)
 * [TA Guide](ta-guide/overview.md)
 	* [Overview of Being a TA](ta-guide/process.md)
 	* [Running Discussions](ta-guide/discussion.md)
@@ -15,7 +15,7 @@
 	* [Final Grading](ta-guide/grading.md)
 * [Reader Guide](reader-guide/overview.md)
 	* [Overview of Being a Reader](reader-guide/process.md)
-* [Tools Guides](tools/overview.md)
+* [Tool Guides](tools/overview.md)
 	* [Chat Rooms](tools/chat-apps.md)
 	* [Chatbot](tools/chatbot.md)
 	* [Asana](tools/asana.md)
