@@ -1,6 +1,7 @@
 # TA-Ops
 > attempting to keep everyone's head on straight!
 
+## [Read it now][online]
 
 __TA-Ops__ is a set of docs, procedures, and tools for helping us effectively run [CS10][] and [BJC][] at UC Berkeley.
 

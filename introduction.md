@@ -1,4 +1,4 @@
-# Background
+# TA-Ops: A Guide for Teaching CS10
 It's tricky to run a large university class. It's tricky to do it well, and to do so with lessening resources. This is a guide for how CS10 works at UC Berkeley.
 
 This guide is both for course staff, but also should serve a resource for anyone else in academia to use, and maybe even improve upon. Because this is a public guide, there may be sections which are intentionally missing, or parts that are a bit unclear. If you'd like to know, please get in touch!
@@ -13,6 +13,7 @@ _The Beauty and Joy of Computing_ is a curriculum that's designed both for high 
 * Lambdas (Higher Order Functions)
 
 [CS10]: http://cs10.org/
+[snap]: http://snap.berkeley.edu/
 [BJC]: http://bjc.berkeley.edu/
 [Scratch]: https://scratch.mit.edu
 [BJC-Twitter]: https://twitter.com/cspbjc
