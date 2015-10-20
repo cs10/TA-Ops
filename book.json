@@ -2,9 +2,6 @@
     "title": "TA-Ops",
     "description": "A manual for running undergraduate courses",
     "author": "Michael Ball",
-    "structure": {
-      "readme": "introduction.md"
-    },
     "plugins": [
       "github",
       "-sharing"

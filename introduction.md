@@ -22,7 +22,9 @@ _The Beauty and Joy of Computing_ is a curriculum that's designed both for high 
 # Is it _really_ that hard to run a class?
 Yes, and no... As we scale the course and have new instructors, things can get complex. However, writing down our processes turns out to be a great way to clarify what we know and this guide is hopefully something others will find useful.
 
-# _TA-Ops_ for Other Courses
+# How You Should Read _TA-Ops_
+### _TA-Ops_ for CS10ers!
+### _TA-Ops_ for everyone else
 Don't teach CS10? That's cool, too! Here's how you should approach this guide:
 
 TODO... In the meantime, just skip all the uninteresting parts. ;)
