@@ -18,6 +18,7 @@
 	* [Discussion Sections](course/discussion.md)
 	* [Assignments](course/assignments.md)
 * [Tool Guides](tools/overview.md)
+	* [Accounts and Admin](tools/accounts-admin.md)
 	* [Chat Rooms](tools/chat-apps.md)
 	* [Chatbot](tools/chatbot.md)
 	* [Asana](tools/asana.md)
